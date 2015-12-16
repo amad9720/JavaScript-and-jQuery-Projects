@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jQuery Form</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/animation.js" type="text/javascript"></script>
+        <script src="js/validation.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form name="form" onsubmit="return validateForm()">
+            <ul>
+                <li class="title">Who Are You?</li>
+                <li class="fields">
+                    <label>*First Name: </label><br>
+                    <input id="first_name" class="req" type="text"><br>
+                    <label>Middle Name: </label><br>
+                    <input id="middle_name" type="text"><br>
+                    <label>Last Name: </label><br>
+                    <input id="last_name" type="text"><br>
+                    <label>*Email: </label><br>
+                    <input id="email" class="req" type="text"><br>
+                </li>
+                <li class="title">Where Are You?</li>
+                <li class="fields">
+                    <label>City: </label><br>
+                    <input id="city" type="text"><br>
+                    <label>*State: </label><br>
+                    <input id="state" class="req" type="text"><br>
+                    <label>Country: </label><br>
+                    <input id="country" type="text"><br>
+                </li>
+                <li class="title">What Do You Do?</li>
+                <li class="fields">
+                    <label>*Occupation: </label><br>
+                    <input type="text" id="occupation" class="req"><br>
+                    <label>Company: </label><br>
+                    <input type="text" id="company"><br>
+                    <label>Company Location: </label><br>
+                    <input type="text" id="location"><br>
+                </li>
+            </ul>
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
