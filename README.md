@@ -2,7 +2,7 @@
 ### Projects made for learning jQuery and JavaScript
 
 #### 1. Form with animations
-- Form with animations is a project that ask the user for information. 
+- Form with animations is a project that ask the user for information.
 - It only has some required fields that if the user didn't fill them, the javascript will send an alert and will not send the form.
 
 #### 2. SimpleQuiz
@@ -14,3 +14,8 @@
 - Content slider holds images as well as text.
 - It has "previous" & "next" buttons to shift between images, as well as an autoswitch option.
 - It uses fade effect.
+
+#### 4. Youtube Search Engine
+- Youtube search engine is an app to seek Youtube videos through it.
+- It uses the Youtube API v3, to obtain the videos.
+- It uses fancybox, to display the videos within the page.
