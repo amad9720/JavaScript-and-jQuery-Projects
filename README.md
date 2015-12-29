@@ -19,3 +19,8 @@
 - Youtube search engine is an app to seek Youtube videos through it.
 - It uses the Youtube API v3, to obtain the videos.
 - It uses fancybox, to display the videos within the page.
+
+#### 5. FAQ Slider
+- FAQ Slider is a custom FAQ section that only displays the questions, and when one is clicked it displays only that answer.
+- Toggle rotation of images via JavaScript and CSS.
+- It is similar to project number 1.
